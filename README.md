@@ -5,16 +5,12 @@
 <h1>osTicket - Post-Install Configuration</h1>
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- MySql
 
 <h2>Operating Systems Used </h2>
 
@@ -22,11 +18,11 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure Agent Roles
+- Configure Company Departments
+- Configure Company Work Groups
+- Configure Individual Workers Profiles
+- Configure Knowledgebase/ Help Center
 
 <h2>Configuration Steps</h2>
 
@@ -34,26 +30,31 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<h3>How to Login as Admin</h3>
 Admin/Analyst Login Page:
 http://localhost/osTicket/scp/login.php 
 
+<h3>Link for Users to Login</h3>
 End Users osTicket URL:
 http://localhost/osTicket 
 
 Acknowledge Agent Panel vs Admin Panel
 
+<h3>How to set up Worker Roles</h3>
 Configure Roles (for grouping permissions)
 Admin Panel -> Agents -> Roles
-Supreme Admin
+ex: Sr System Admins, Jr System Admins
 
+<h3>How to setup Departments </h3>
 Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)
 Admin Panel -> Agents -> Departments
-SysAdmins
+ex: SysAdmins, Networking, Tier 2 Support, Tier 3 Support
 
-Configure Teams
+<h3>How to Setup Company Teams</h3>
 Admin Panel -> Agents -> Teams (Pull Agents from different Departments)
 Online Banking
 
+<h3>How to Setup the User Ticketing System</h3>
 Allow anyone to create tickets
 Admin Panel -> Settings -> User Settings (UNCHECK: unregistered users can create tickets)
 Registration Required: Require registration and login to create tickets 
