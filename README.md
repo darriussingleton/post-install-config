@@ -27,7 +27,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://imgur.com/yUTC9i0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <h3>How to Login as Admin</h3>
@@ -40,6 +40,8 @@ http://localhost/osTicket
 
 Acknowledge Agent Panel vs Admin Panel
 
+<img src="https://imgur.com/DSIg7vH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <h3>How to set up Worker Roles</h3>
 Configure Roles (for grouping permissions)
 Admin Panel -> Agents -> Roles
@@ -50,50 +52,37 @@ Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)
 Admin Panel -> Agents -> Departments
 ex: SysAdmins, Networking, Tier 2 Support, Tier 3 Support
 
+<img src="https://imgur.com/JstRPuu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <h3>How to Setup Company Teams</h3>
 Admin Panel -> Agents -> Teams (Pull Agents from different Departments)
 Online Banking
+
+<img src="https://imgur.com/SJQGLvq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <h3>How to Setup the User Ticketing System</h3>
 Allow anyone to create tickets
 Admin Panel -> Settings -> User Settings (UNCHECK: unregistered users can create tickets)
 Registration Required: Require registration and login to create tickets 
 
-
-
-
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/PxSDFWN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
 <H3>Configure Agents (workers)</H3>
-Admin Panel -> Agents -> Add New
-Jane (Dept: SysAdmins)
-John (Dept: Support)
+(optional)
 
 
 <H3>Configure Users (customers)</H3>
-Agent Panel -> Users -> Add New
-Karen
-Ken
+(optional)
 
+<h3>SLA Metrics</h3>
+(optional)
 
-<H3>Configure SLA</H3>
-Admin Panel -> Manage -> SLA
-Sev-A (Grace Period: 1 hour, Schedule: 24/7)
-Sev-B (Grace Period: 4 hours, Schedule: 24/7)
-Sev-C (Grace Period: 8 hours, Business Hours)
 
 
 <H3>Configure Help Topics (For when users create a ticket)</H3>
@@ -103,5 +92,9 @@ Personal Computer Issues
 Equipment Request
 Password Reset
 Other
+
+<p>
+<img src="https://imgur.com/sgbTXN6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 </p>
 <br />
